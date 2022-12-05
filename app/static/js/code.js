@@ -1,0 +1,1 @@
+console.log("Hello this file is coming from static !!!!!!!!!!");

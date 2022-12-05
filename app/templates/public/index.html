@@ -1,0 +1,29 @@
+{% extends "public/templates/public_template.html" %}
+
+{% block title %}
+Home Page
+{% endblock %}  
+
+
+{% block content %}
+
+
+<div class="row" style="margin-top: 140px;">
+    <div class="col-lg-6">
+        <h1>Hello , Welcome To <code>Kaka</code> Website !!</h1>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi te
+            mporibus repellendus minus, neque nobis veniam, laudantium facilis excepturi, iusto 
+            ero impedit eos officiis. Optio assumenda pariatur et officiis tempore minus incidunt liber
+            o expedita rerum explicabo sunt, porro, necessitatibus fugit, odio iusto volupta
+            s molestias quidem dignissimos consequuntur perferendis blanditiis atque maxime.</p>
+            <a href="#" class="btn btn-primary">See More</a>
+    </div>  
+    <div class="col-lg-6">
+
+        <img src="{{url_for('static',filename='img/kaka.jpeg')}}" alt="kaka_sangi">
+    </div>
+</div>
+{% endblock %}
+
+
+
